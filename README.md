@@ -1,8 +1,6 @@
 # Secure Data Toolbox: Advanced Cryptography, Hashing, & Steganography Engine
 
-<image-card alt="Secure Data Toolbox Banner" src="URL_PLACEHOLDER_1" ></image-card>
-
-**[UI SCREENSHOT INSTRUCTION]:** Run the application using Visual Studio, navigate to the Hashing tab, type a message to show the real-time SHA-256 hash output, change a single character to highlight the automated Avalanche Effect diff calculation, and capture the interface. Take a clean, high-resolution screenshot of the application dashboard and replace this placeholder with your direct image URL.
+<img width="1365" height="719" alt="image" src="https://github.com/user-attachments/assets/21f40bb4-6942-4821-aede-90c710005821" />
 
 ## 1. Executive Overview
 
