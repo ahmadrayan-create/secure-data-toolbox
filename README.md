@@ -12,7 +12,7 @@ This platform solves that dilemma by introducing an authenticated steganography 
 
 ## 2. Core Architectural Framework
 
-```text
+
          [ Raw Payload Input ]
                    │
                    ▼
@@ -32,6 +32,8 @@ This platform solves that dilemma by introducing an authenticated steganography 
                    │
                    ▼
       [ Stego Image Output Asset ]
+
+
 Key Technical Innovations
 Authenticated Steganography Pipeline: Instead of naive bit-insertion, this system utilizes a strict framing protocol: [4-Byte Length Header] + [32-Byte SHA-256 Signature Hex] + [Delimiter] + [Raw Payload]. During extraction, the application parses the length header, isolates the signature, re-computes the payload hash on the fly, and performs an automated comparison to detect third-party image tampering or bit rot.
 
